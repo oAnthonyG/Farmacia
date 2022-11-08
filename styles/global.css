@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+
+body{
+  background-color: var(--bg-secondary-color);
+}
+
+:root{
+  --bg-primary-color: #fff;
+  --bg-secondary-color: #FFE8E8;
+  --letter-color: #000;
+  --buton-color: #3CBB67;
+
+  --font-family-primary: 'Cormorant Garamond', serif;
+  --font-family-secondary: 'Montserrat', sans-serif;
+}
