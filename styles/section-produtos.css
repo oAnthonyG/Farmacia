@@ -29,4 +29,52 @@
 
 .produtos-button{
   width: 25%;
+  margin-top: 3.75rem;
+  padding: .5rem;
+}
+
+.produto-img{
+  width: 90%;
+  margin-bottom: .8rem;
+  
+}
+
+.produto-name{
+  font-family: var(--font-family-secondary);
+  margin-bottom: .8rem;
+}
+.produto-preco{
+  font-weight: 300;
+  font-family: var(--font-family-secondary);
+}
+
+@media (max-width: 1080px){
+  .produtos-text{
+    width: 80%;
+  }
+  .produtos-container{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px){
+.produtos-button{
+  width: 70%;
+}
+}
+
+@media (max-width: 660px){
+figure{
+  width: 90%;
+}
+.produto-name{
+font-size: 1.4rem;
+}
+.produto-preco{
+  font-size: 1.2rem;
+}
+.produtos-button{
+  width: 90%;
+}
 }
