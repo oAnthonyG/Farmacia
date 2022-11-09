@@ -1,0 +1,32 @@
+.section-produtos {
+  text-align: center;
+  background-color: var(--bg-primary-color);
+}
+
+.produtos-title {
+  font-size: 3rem;
+  margin-bottom: 3.75rem;
+  padding-top: 2rem;
+}
+
+.produtos-text {
+  font-family: var(--font-family-secondary);
+  font-size: 1.4rem;
+  font-weight: 300;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 3.75rem;
+}
+
+.produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 2rem;
+  margin: 0 auto;
+
+}
+
+.produtos-button{
+  width: 25%;
+}
