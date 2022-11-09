@@ -1,47 +1,52 @@
-.servicos-convenios{
+.servicos-convenios {
   background-color: var(--bg-primary-color);
 }
-.servicos-title{
+
+.servicos-title {
   text-align: center;
   padding-top: 3rem;
   font-size: 3rem;
 }
 
-.servicos-flex{
+.servicos-flex {
   display: flex;
   justify-content: space-around;
 }
-.lista{
+
+.lista {
   width: 80%;
   height: 95px;
   margin-inline: auto;
   margin-top: 3.75rem;
   font-weight: 300;
 }
-li{
+
+li {
   font-family: var(--font-family-secondary);
 }
-.servicos-img{
+
+.servicos-img {
   margin-top: 3.75rem;
 }
 
-@media (max-width: 1090px){
-  .servicos-flex{
+@media (max-width: 1090px) {
+  .servicos-flex {
     flex-wrap: wrap;
   }
 
-  .servicos-img{
+  .servicos-img {
     margin-top: 0;
   }
 }
 
-@media (max-width: 600px){
-  .servicos-flex div{
+@media (max-width: 600px) {
+  .servicos-flex div {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .servicos-img{
+
+  .servicos-img {
     text-align: center;
     width: 90%;
   }

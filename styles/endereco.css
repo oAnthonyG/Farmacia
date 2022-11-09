@@ -1,0 +1,48 @@
+.endereco-title{
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 3.75rem;
+}
+
+.endereco-container{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3.75rem;
+}
+
+.endereco-descricao{
+  width: 290px;
+}
+
+.endereco-descricao h2{
+  font-family: var(--font-family-secondary);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.endereco-container p{
+  line-height: 1.6;
+  font-family: var(--font-family-secondary);
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.endereco-mapa{
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1000px){
+  .endereco-container{
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 600px){
+  .endereco-container{
+    justify-content: center;
+  }
+}
