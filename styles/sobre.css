@@ -1,0 +1,33 @@
+.sobre {
+  background-color: var(--bg-primary-color);
+}
+
+.sobre-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 3.75rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+.sobre-container-text{
+  margin-top: 3.75rem;
+  width: 70%;
+  margin-inline: auto;
+}
+
+.sobre-text{
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: var(--font-family-secondary);
+  margin-bottom: 2rem;
+}
+
+.sobre-container-text.-second{
+padding-bottom: 3.75rem;
+}
+
+@media (max-width: 480px){
+  .sobre-container-text{
+    width: 90%;
+  }
+}
