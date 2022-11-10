@@ -79,3 +79,9 @@ font-size: 1.4rem;
   width: 90%;
 }
 }
+
+@media (max-width: 480px){
+  .produtos-text{
+    width: 90%;
+  }
+}
