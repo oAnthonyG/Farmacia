@@ -59,7 +59,7 @@ filter: brightness(1.1);
   color: var(--bg-primary-color);
 }
 
-@media (max-width: 870px){
+@media (max-width: 910px){
   .container-title{
     font-size: 2rem;
   }
@@ -72,7 +72,7 @@ filter: brightness(1.1);
   }
 }
 
-@media (max-width: 720px){
+@media (max-width: 805px){
   .container-img-bg{
     width: 100%;
   }
