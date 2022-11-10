@@ -16,22 +16,23 @@
   <link rel="stylesheet" href="./styles/servicos-convenios.css">
   <link rel="stylesheet" href="./styles/endereco.css">
   <link rel="stylesheet" href="./styles/sobre.css">
+  <link rel="stylesheet" href="./styles/footer.css">
 
   <title>Drogaria São Lucas</title>
 </head>
 
 <body>
   <main>
-    <header class="header">
+    <header class="header" id="header">
       <img class="header-logo" src="./imgs/logo 2.jpg" alt="">
       <nav id="nav">
         <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expended="false">
           <span id="hamburger"></span>
         </button>
         <ul id="menu" role="menu">
-          <li><a class="header-links" href="">Início</a></li>
-          <li><a class="header-links" href="">Endereço</a></li>
-          <li><a class="header-links" href="">Sobre</a></li>
+          <li><a class="header-links" href="#header">Início</a></li>
+          <li><a class="header-links" href="#endereco">Endereço</a></li>
+          <li><a class="header-links" href="#sobre">Sobre</a></li>
         </ul>
       </nav>
     </header>
@@ -106,7 +107,7 @@
         </div>
       </article>
     </section>
-    <section class="endereco">
+    <section class="endereco" id="endereco">
       <h2 class="endereco-title">Nossa loja</h2>
 
       <article class="endereco-container">
@@ -137,7 +138,7 @@
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
-    <section class="sobre">
+    <section class="sobre" id="sobre">
       <h2 class="sobre-title">Sobre</h2>
       <article class="sobre-container-text">
         <p class="sobre-text">✓ Drogaria São Lucas é um sonho realizado da empresária Fernanda Melo formada em farmácia
@@ -156,7 +157,10 @@
         <article>
 
     </section>
-
+    <footer class="footer">
+      <box-icon name='copyright'></box-icon>
+      <p>Todos os direitos reservados</p>
+    </footer>
   </main>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   <script src="./components/script.js"></script>

@@ -38,7 +38,7 @@ margin-bottom: 1rem;
   align-items: center;
   justify-content: center;
   width: 60%;
-  height: 15%;
+  height: 3.2rem;
   margin-inline: auto;
   margin-top: 10%;
   margin-bottom: .5rem;
@@ -59,7 +59,7 @@ filter: brightness(1.1);
   color: var(--bg-primary-color);
 }
 
-@media (max-width: 855px){
+@media (max-width: 870px){
   .container-title{
     font-size: 2rem;
   }
@@ -72,7 +72,7 @@ filter: brightness(1.1);
   }
 }
 
-@media (max-width: 710px){
+@media (max-width: 720px){
   .container-img-bg{
     width: 100%;
   }
